@@ -1,0 +1,51 @@
+# Docker ignore file
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data and logs
+logs/*
+!logs/.gitkeep
+data/*
+!data/.gitkeep
+
+# Models (comment out if you want to include models in Docker image)
+models/*.h5
+models/*.keras
+
+# Git
+.git/
+.gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation
+*.md
+LICENSE
